@@ -1,0 +1,72 @@
+main{
+    margin: auto;
+    padding: 40px 0px;
+    width: 85%;
+    color: grey;
+}
+h2{
+    font-weight: 600;
+    padding: 15px 0px;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor article{
+    display: flex;
+    flex-flow: column;
+    flex: 50%;
+}
+
+
+.formato_form_txt{
+    display: flex;
+    flex-flow: column;
+}
+.formato_form_txt input{
+    width: calc(90% - 20px);
+    height: 30px;
+    margin: 25px 0px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.formato_form_txt textarea{
+    width: calc(90% - 20px);
+    height: 30px;
+    margin: 25px 0px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 170px;
+}
+
+.boton_enviar{
+    float: right;
+    margin: 0em 5em;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    font-size: large;
+    border-radius: 15%;
+    
+}
+.formato_datos div{
+    display: flex;
+}
+.formato_datos label{
+    margin: 10px 0px;
+}
+.centrado_txt{
+    text-align: center;
+}
+.ubicacion{
+    width: 100%;
+    height: 260px;
+    margin: 10px;
+}
+
+
+.error{
+    margin-top: 1em;
+    color: crimson;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+    
+}
+#calendario .fc-h-event{
+    background-color:  rgb(7, 72, 72);
+}
+#calendario .fc-button{
+    background-color: darkcyan;;
+}

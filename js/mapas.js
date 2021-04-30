@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $("#evaPeron").click(function(){
+        $(".popup").fadeOut();
+        $("#popupEvaPeron").fadeIn();
+    });
+    $("#cerrarEvaPeron").click(function(){
+        $("#popupEvaPeron").fadeOut();
+    });
+    $("#paroissien").click(function(){
+        $(".popup").fadeOut();
+        $("#popupParoissien").fadeIn();
+    });
+    $("#cerrarParoissien").click(function(){
+        $("#popupParoissien").fadeOut();
+    });
+    $("#santojanni").click(function(){
+        $(".popup").fadeOut();
+        $("#popupSantojanni").fadeIn();
+    });
+    $("#cerrarSantojanni").click(function(){
+        $("#popupSantojanni").fadeOut();
+    });
+});

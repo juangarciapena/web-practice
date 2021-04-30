@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin: auto;
+    width: 90%;
+    color: rgb(87, 87, 87);
+}
+h1{
+    color: darkgray;
+    text-align: center;
+    margin: 50px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+h2{
+    color: gray;
+    text-align: center;
+    margin: 40px;
+    padding-top: 50px;
+    font-size: x-large;
+}
+h4{
+    color: gray;
+    margin: 20px;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor article{
+    display: flex;
+    flex-flow: column;
+}
+.columna_der {
+    width: 55%;
+}
+.columna_izq {
+    width: 40%;
+}
+.border_rad{
+    border-radius: 45px;
+}
+
+/* FORMULARIO DE DETECCION */
+.img-sintomas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-sintomas img{
+    width: calc(50% - 30px);
+}
+.formato_form_txt input{
+    width: calc(100% - 20px);
+    height: 30px;
+    border-radius: 10px;
+}
+.formato_paises{
+    width: calc(50% - 20px);
+    height: 30px;
+    border-radius: 10px;
+}
+.fila_formulario{
+    display: flex;
+}
+.column_formulario{
+    flex: 50%;
+    padding-top: 10px;
+}
+.negrita{
+    margin-top: 35px;
+    color: black;
+    font-weight: 600;
+}
+.botones{ /* INPUT RADIO FORMATO */
+    margin: 15px 0px;
+}
+.botones input{
+    margin: 0px 7px;
+}
+.columnas_input_rad{
+    display: flex;
+}
+.columnas_input_rad label{
+    display: flex;
+    margin: 10px 0px;
+}
+.columnas_input_rad input{
+    margin: 8px;
+}
+.display_block {
+    display: block;
+}
+.boton_enviar{
+    float: right;
+    margin: 20px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    font-size: large;
+    border-radius: 15%;
+}
+
+/* MEDIDAS DE PRECAUCION */
+.img-precaucion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-precaucion img{
+    width: 15%;
+    padding: 0px 50px;
+}
+
+/* DATOS HOSPITAL MAS CERCANO */
+.datos_hospital div{
+    margin-bottom: 10px;
+}
+.datos_hospital img{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.img_mapa{
+    flex: 70%;
+}
+
+.error{
+    margin-top: 1em;
+    color: crimson;
+}
+

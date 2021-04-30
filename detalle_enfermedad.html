@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos_detalles.css">
+    <title>Detalles de la enfermedad</title>
+</head>
+<body>
+    <!---------------------------HEADER--------------------------------->
+    <header>
+        <section>
+            <article class="buscador">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="LOGO" class="logo">
+                </a>
+                <div>
+                <input list="enfermedades" type="search" name="buscar"
+                 placeholder="Buscar...">
+                <datalist id="enfermedades">
+                    <option value="COVID-19">
+                    <option value="enfermedad2">
+                    <option value="enfermedad3">
+                </datalist>
+                <button type="submit" class="searchButton">
+                    <img src="img/baseline_search_black_18dp.png" alt="icono_lupa" class="icono_lupa">
+                 </button>
+                </div>
+            </article>
+            <article>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="listado.html">ENFERMEDADES</a></li>
+                        <li><a href="calendario.html">VACUNACION</a></li>
+                        <li><a href="mapas.html">HOSPITALES</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+             </article>  
+        </section>
+
+    </header>
+<!------------------------------MAIN-------------------------------->
+    <main>
+        <section >
+            <h1>NOMBRE ENFERMEDAD</h1>
+            <div class="contenedor">
+                <article class="columna_izq" >
+                    <img src="img/covid-19.jpg" alt="enfermedad" class="border_rad">
+                </article>
+                <article class="columna_der">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                        ipsum quod enim provident placeat ducimus fugit laudantium vel 
+                        ex amet. Mollitia consectetur molestiae in excepturi repellendus 
+                        eos odio laudantium vel!
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur culpa,
+                        delectus qui soluta cumque asperiores ut odit, maxime reiciendis neque eligendi
+                         dolore perferendis ipsa odio, minima numquam iste accusamus!
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                         ipsum quod enim provident placeat ducimus fugit laudantium vel 
+                         ex amet. Mollitia consectetur molestiae in excepturi repellendus 
+                         eos odio laudantium vel!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur culpa,
+                        delectus qui soluta cumque asperiores ut odit, maxime reiciendis neque eligendi
+                        dolore perferendis ipsa odio, minima numquam iste accusamus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                        ipsum quod enim provident placeat ducimus fugit laudantium vel 
+                        ex amet. Mollitia consectetur molestiae in excepturi repellendus 
+                        eos odio laudantium vel!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur culpa,
+                        delectus qui soluta cumque asperiores ut odit, maxime reiciendis neque eligendi
+                        dolore perferendis ipsa odio, minima numquam iste accusamus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                        ipsum quod enim provident placeat ducimus fugit laudantium vel 
+                        ex amet. Mollitia consectetur molestiae in excepturi repellendus 
+                        eos odio laudantium vel!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur culpa,
+                        delectus qui soluta cumque asperiores ut odit, maxime reiciendis neque eligendi
+                        dolore perferendis ipsa odio, minima numquam iste accusamus!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                        ipsum quod enim provident placeat ducimus fugit laudantium vel 
+                        ex amet. Mollitia consectetur molestiae in excepturi repellendus 
+                        eos odio laudantium ve
+                    </p>
+                </article>
+             </div>
+        </section>
+        <section>
+            <h2>FORMULARIO DE DETECCION(TEST) DE CORONAVIRUS COVID-19</h2>
+            <div class="contenedor">
+                <article class="columna_izq"> 
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                         ipsum quod enim provident placeat ducimus fugit laudantium vel 
+                         ex amet. Mollitia consectetur molestiae in excepturi repellendus 
+                         eos odio laudantium vel!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A aspernatur culpa,
+                         delectus qui soluta cumque asperiores ut odit, maxime reiciendis neque eligendi
+                          dolore perferendis ipsa odio, minima numquam iste accusamus!
+                    </p>
+                    <h4>SINTOMAS</h4>
+                    <div class="img-sintomas">
+                        <img src="img/24-fiebre-dolor-garganta.png" alt="fiebre">
+                        <img src="img/25-fiebre-dificultad-respirar.png" alt="respirar">
+                        <img src="img/23-fiebre-tos.png" alt="tos">
+             
+                </article>
+                <article  class="columna_der"> <!--FORMULARIO-->
+                    <form action="#" method="GET" onsubmit="return validar()">
+                        <div class="formato_form_txt">
+                            <label for="nombreapellido">Nombre y Apellido</label>
+                            <input type="text" name="nombreapellido" id="nombreapellido">
+                            <div class="fila_formulario">
+                                <div class="column_formulario">
+                                    
+                                    <label for="dni">DNI</label>
+                                    <input type="number" name="dni" id="dni">
+                                </div>  
+                                <div class="column_formulario">
+                                    
+                                    <label for="tel">Telefono</label>
+                                    <input type="tel" name="tel" id="tel" pattern="[0-9]{8,}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fila_formulario">
+                            <div class="column_formulario">
+                                <div class="formato_form_txt">
+                                    <label for="ciudad">Ciudad</label>
+                                    <input type="text" name="ciudad" id="ciudad">
+                                </div>
+                            </div>  
+                            <div class="column_formulario" >
+                                <p>Sexo</p>
+                                <div class="botones">
+                                    <input id="hombre" type="radio" name="tipo_sexo" value="Hombre" > F
+                                    <input id="mujer" type="radio" name="tipo_sexo" value="Mujer"> M
+                                </div>
+                            </div>
+                        </div>
+                        <div class="botones">
+                            <label>¿Has viajado al exterior de la Republica Argentina? </label>
+                            <input id="Si" type="radio" name="exterior" value="Si" checked onclick="mostrarOcultar()"> Si
+                            <input id="No" type="radio" name="exterior" value="No" onclick="mostrarOcultar()">No
+                        </div>
+                        <div id="ocultar">
+                            <label for="Paises">Paises visitados</label>
+                            <select id="Paises" name="Paises" class="formato_paises">
+                                <option value="0"></option>
+                                <option value="1">Chile</option>
+                                <option value="2">Rusia</option>
+                                <option value="3">Francia</option>
+                            </select>
+                        </div>
+                        <p class="negrita">Por favor, indica los sintomas que presentas:</p>
+
+                        <div class="columnas_input_rad">   
+                            <div class="botones">
+                                <label>¿Tuviste fiebra mayor a 38 grados?</label>
+                                <label>¿Tuviste Dolor de cabeza?</label>
+                                <label>¿Tuviste una tos persistente?</label>
+                                <label>¿Tuviste dolor de garganta?</label>
+                                <label>¿Tuviste dificultad para respirar?</label>
+                            </div>
+                            <div class="botones">
+                                <div class="display_block">
+                                    <input id="Si" type="radio" name="fiebre" value="Si" class="checkPositivo"> Si
+                                    <input id="No" type="radio" name="fiebre" value="No"> No
+                                </div>
+                                <div class="display_block">
+                                    <input id="Si" type="radio" name="dolor" value="Si" class="checkPositivo"> Si
+                                    <input id="No" type="radio" name="dolor" value="No"> No
+                                </div>
+                                <div class="display_block">
+                                    <input id="Si" type="radio" name="tos" value="Si" class="checkPositivo"> Si
+                                    <input id="No" type="radio" name="tos" value="No"> No
+                                </div>
+                                <div class="display_block">
+                                    <input id="Si" type="radio" name="garganta" value="Si" class="checkPositivo"> Si
+                                    <input id="No" type="radio" name="garganta" value="No"> No
+                                </div>
+                                <div class="display_block">
+                                    <input id="Si" type="radio" name="respirar" value="Si" class="checkPositivo" onclick="mostrarOcultarResp()"> Si
+                                    <input id="No" type="radio" name="respirar" value="No" onclick="mostrarOcultarResp()"> No
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="ocultarDir">
+                            <div class="formato_form_txt">
+                                <div class="fila_formulario">
+                                    <div class="column_formulario">
+                                        <label for="direccion">Direccion</label>
+                                        <input type="text" name="direccion" id="direccion">
+                                    </div>  
+                                    <div class="column_formulario">
+                                        <label for="ciudad">Ciudad</label>
+                                        <input type="text" name="ciudad" id="ciudad">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <input type="submit" value="ENVIAR TEST" class="boton_enviar" onclick="cuantosPositivos()">
+                        
+                        <div id="mensaje" class="error">
+
+                        </div>
+
+                    </form>
+                </article>
+            </div>
+        </section>
+        <section >
+            <h2>MEDIDAS DE PRECAUCION</h2>
+            <article class="img-precaucion">
+                <img src="img/14-lavarse-manos.png" alt="lavar masnos">
+                <img src="img/16-tocar-nariz.png" alt="no tocar">
+                <img src="img/15-estornudar.png" alt="estornudo">
+                <img src="img/17-ventilar.png" alt="ventilar">
+                <img src="img/18-limpiar-objetos.png" alt="limpiar">
+                <img src="img/20-reducir-contacto.png" alt="contacto">
+                <img src="img/19-permanecer-domicilio.png" alt="domicilio">
+                <img src="img/21-no-compartir-mate.png" alt="compartir">
+            </article>
+        </section>
+        <section>
+            <h2>HOSPITAL MAS CERCANO EXPECIALIZADO EN LA ENFERMEDAD</h2>
+            <div class="contenedor">
+                <article class="datos_hospital columna_izq">
+                    <h4>NOMBRE HOSPITAL</h4>
+                    <div>tel</div>
+                    <div>dirrecion</div>
+                    <div>Ciudad</div>
+                    <img src="img/hospital_foto.PNG" alt="hospital">
+                </article>
+                <article class="img_mapa" >
+                    <img src="img/mapa_hospital.PNG" alt="mapa">
+                </article>
+            </div>
+        </section>
+
+        
+
+    </main>
+<!----------------------------FOOTER-------------------------------->
+    <footer>
+        <section class="contenedor_footer">
+            <article>
+                <h3>Datos del Grupo</h3>
+                <div class="espaciado">xxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+                <div class="espaciado">yyyyyyyyyyyyyyyyyyyyyyyyyy</div>
+                <div class="espaciado">xxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+            </article>
+            <article>
+                <h3>Menu inferior</h3>
+                <ul class="menu-footer">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="listado.html">ENFERMEDADES</a></li>
+                    <li><a href="calendario.html">VACUNACION</a></li>
+                    <li><a href="mapas.html">HOSPITALES</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </article>
+            <article>
+                <h3>Redes sociales</h3>
+                <a href="#"><img src="img/fb-logo.jpg" alt="FB" class="logo-redes"></a>
+                <a href="#"><img src="img/ig-logo.jpg" alt="IG" class="logo-redes"></a>
+                <a href="#"><img src="img/twitter-logo.jpg" alt="TW" class="logo-redes"></a>
+            </article>
+        </section>
+    </footer>
+
+    <script src="js/detalles_form.js"></script>
+
+</body>
+</html>

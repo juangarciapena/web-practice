@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos-contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <!---------------------------HEADER--------------------------------->
+    <header>
+        <section>
+            <article class="buscador">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="LOGO" class="logo">
+                </a>
+                <div>
+                <input list="enfermedades" type="search" name="buscar"
+                 placeholder="Buscar...">
+                <datalist id="enfermedades">
+                    <option value="COVID-19">
+                    <option value="enfermedad2">
+                    <option value="enfermedad3">
+                </datalist>
+                <button type="submit" class="searchButton">
+                    <img src="img/baseline_search_black_18dp.png" alt="icono_lupa" class="icono_lupa">
+                 </button>
+                </div>
+            </article>
+            <article>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="listado.html">ENFERMEDADES</a></li>
+                        <li><a href="calendario.html">VACUNACION</a></li>
+                        <li><a href="mapas.html">HOSPITALES</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+             </article>  
+        </section>
+    </header>
+<!------------------------------MAIN-------------------------------->
+    <main>
+        
+        <section class="contenedor">
+            <article>
+                <form action="#" method="GET" onsubmit="return validarDatos()">
+                    <div class="formato_form_txt">
+                        <h2>CONTACTO</h2>
+                        <input type="text" name="nombreApellido" id="nombreApellido" placeholder="Nombre y Apellido">
+                        <input type="email" name="correo" id="correo" placeholder="Email">
+                        <input type="text" name="telefono" id="telefono" placeholder=" xxxx-xxxx">
+                        <textarea name="consulta" id="consulta" cols="40" rows="10" onkeyup="cantidadCaracteres ()"></textarea>
+                    </div>
+                    <div>
+                        <input class="boton_enviar" type="submit" value="Enviar">
+                    </div>
+                    <div id="contador" class="contador"></div>
+                    <p>Te quedan: <span id="caracteres">1000</span>/1000 caracteres</p>
+                    <div id="mensajeCaracteres" class="error"></div>
+                    <div id="mensaje" class="error"></div>
+
+                </form>     
+            </article>
+
+            <article class="formato_datos">
+                <h2>DATOS DE CONTACTO</h2>
+                <label>Direccion</label>
+                <label>Teléfono</label>
+                <label>Celular</label>
+                <label>Email</label>
+                <label>Web</label>
+                <div>
+                    <a href="#"><img src="img/fb-logo.jpg" alt="FB" class="logo-redes"></a>
+                    <a href="#"><img src="img/ig-logo.jpg" alt="IG" class="logo-redes"></a>
+                    <a href="#"><img src="img/twitter-logo.jpg" alt="TW" class="logo-redes"></a>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2 class="centrado_txt">UBICACIÓN</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5680.305512509979!2d-58.56968208421193!3d-34.67040390155235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7cd14129b61%3A0x78f6eab9f8572beb!2sHospital%20Italiano%20de%20San%20Justo%20Agust%C3%ADn%20Rocca!5e0!3m2!1ses-419!2sar!4v1602456445427!5m2!1ses-419!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="ubicacion"></iframe>
+            </article>
+        </section>
+
+
+        
+    </main>
+<!----------------------------FOOTER-------------------------------->
+    <footer>
+        <section class="contenedor_footer">
+            <article>
+                <h3>Datos del Grupo</h3>
+                <div class="espaciado">xxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+                <div class="espaciado">yyyyyyyyyyyyyyyyyyyyyyyyyy</div>
+                <div class="espaciado">xxxxxxxxxxxxxxxxxxxxxxxxxx</div>
+            </article>
+            <article>
+                <h3>Menu inferior</h3>
+                <ul class="menu-footer">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="listado.html">ENFERMEDADES</a></li>
+                    <li><a href="calendario.html">VACUNACION</a></li>
+                    <li><a href="mapas.html">HOSPITALES</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </article>
+            <article>
+                <h3>Redes sociales</h3>
+                <a href="#"><img src="img/fb-logo.jpg" alt="FB" class="logo-redes"></a>
+                <a href="#"><img src="img/ig-logo.jpg" alt="IG" class="logo-redes"></a>
+                <a href="#"><img src="img/twitter-logo.jpg" alt="TW" class="logo-redes"></a>
+            </article>
+        </section>
+    </footer>
+
+   
+    <script src="js/contacto_validar.js"></script>
+</body>
+</html>
